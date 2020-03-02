@@ -12,7 +12,7 @@ public class Program {
 		converter.price = sc.nextDouble();
 		System.out.println("How many dollars will be bought?");
 		converter.quantity_bought = sc.nextDouble();
-		System.out.printf("Amounth to be paid in reais: %.2f", converter.total());
+		System.out.printf("Amount to be paid in reais: %.2f", converter.total());
 		
 		sc.close();
 	}
